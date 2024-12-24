@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ericr\\Desktop\\poli\\anul2\\sda\\sda_3_1_ratiu_eric\\exercitiiTema\\ex1curs8\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AF85312B-AD0B-4A06-94D7-7A7938181796}|ex1curs8\\ex1curs8.vcxproj|C:\\Users\\ericr\\Desktop\\poli\\anul2\\sda\\sda_3_1_ratiu_eric\\exercitiiTema\\ex1curs8\\ex1curs8\\List.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{AF85312B-AD0B-4A06-94D7-7A7938181796}|ex1curs8\\ex1curs8.vcxproj|solutionrelative:ex1curs8\\List.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF85312B-AD0B-4A06-94D7-7A7938181796}|ex1curs8\\ex1curs8.vcxproj|C:\\Users\\ericr\\Desktop\\poli\\anul2\\sda\\sda_3_1_ratiu_eric\\exercitiiTema\\ex1curs8\\ex1curs8\\Main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{AF85312B-AD0B-4A06-94D7-7A7938181796}|ex1curs8\\ex1curs8.vcxproj|solutionrelative:ex1curs8\\Main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "List.c",
+              "DocumentMoniker": "C:\\Users\\ericr\\Desktop\\poli\\anul2\\sda\\sda_3_1_ratiu_eric\\exercitiiTema\\ex1curs8\\ex1curs8\\List.c",
+              "RelativeDocumentMoniker": "ex1curs8\\List.c",
+              "ToolTip": "C:\\Users\\ericr\\Desktop\\poli\\anul2\\sda\\sda_3_1_ratiu_eric\\exercitiiTema\\ex1curs8\\ex1curs8\\List.c",
+              "RelativeToolTip": "ex1curs8\\List.c",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-12-23T18:16:15.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Main.c",
+              "DocumentMoniker": "C:\\Users\\ericr\\Desktop\\poli\\anul2\\sda\\sda_3_1_ratiu_eric\\exercitiiTema\\ex1curs8\\ex1curs8\\Main.c",
+              "RelativeDocumentMoniker": "ex1curs8\\Main.c",
+              "ToolTip": "C:\\Users\\ericr\\Desktop\\poli\\anul2\\sda\\sda_3_1_ratiu_eric\\exercitiiTema\\ex1curs8\\ex1curs8\\Main.c",
+              "RelativeToolTip": "ex1curs8\\Main.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-12-23T18:16:05.17Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+﻿  Main.c
+C:\Users\ericr\Desktop\poli\anul2\sda\SDA\utils\Multilista\Multilista\Main.c(105,5): warning C4133: '=': incompatible types - from 'nod *' to 'Lista *'
+C:\Users\ericr\Desktop\poli\anul2\sda\SDA\utils\Multilista\Multilista\Main.c(102,8): warning C4133: 'initializing': incompatible types - from 'Lista *' to 'nod *'
+  Multilista.vcxproj -> C:\Users\ericr\Desktop\poli\anul2\sda\SDA\utils\Multilista\x64\Debug\Multilista.exe

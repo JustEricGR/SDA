@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ericr\\Desktop\\poli\\anul2\\sda\\SDA\\pbexamen\\pozaWhap1(prioritati)\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C42B6C53-6AD1-41E7-BEB0-88973BC3B22E}|pozaWhap1(prioritati)\\pozaWhap1(prioritati).vcxproj|C:\\Users\\ericr\\Desktop\\poli\\anul2\\sda\\SDA\\pbexamen\\pozaWhap1(prioritati)\\pozaWhap1(prioritati)\\Main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C42B6C53-6AD1-41E7-BEB0-88973BC3B22E}|pozaWhap1(prioritati)\\pozaWhap1(prioritati).vcxproj|solutionrelative:pozaWhap1(prioritati)\\Main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Main.c",
+              "DocumentMoniker": "C:\\Users\\ericr\\Desktop\\poli\\anul2\\sda\\SDA\\pbexamen\\pozaWhap1(prioritati)\\pozaWhap1(prioritati)\\Main.c",
+              "RelativeDocumentMoniker": "pozaWhap1(prioritati)\\Main.c",
+              "ToolTip": "C:\\Users\\ericr\\Desktop\\poli\\anul2\\sda\\SDA\\pbexamen\\pozaWhap1(prioritati)\\pozaWhap1(prioritati)\\Main.c",
+              "RelativeToolTip": "pozaWhap1(prioritati)\\Main.c",
+              "ViewState": "AgIAAHoAAAAAAAAAAAAUwIAAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-01-16T19:04:03.777Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

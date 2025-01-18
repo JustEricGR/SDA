@@ -116,6 +116,15 @@ void eliberarePersoane(Persoane* p) {
 	}
 }
 
+void adaugareContactPersoane(Persoane* p, char numeNod[35], int ID, char nume[35], char ocupatie[35]) {
+	for (Persoana* p1 = p->prim; p1 != NULL; p1 = p1->urm) {
+		if (!strcmp(p1->nume, numeNod)) {
+			adaugareContact(p1, ID, nume, ocupatie);
+			break;
+		}
+	}
+}
+
 int main(void) {
 	Persoane persoane;
 	persoane_init(&persoane);
@@ -143,6 +152,10 @@ int main(void) {
 	adaugarePersoanaInPersoane(&persoane, p3);
 
 	afisarePersoane(&persoane);
+
+	adaugareContactPersoane(&persoane, "Ion", 53636, "Dani", "tot");
+	afisarePersoane(&persoane);
+
 	eliberarePersoane(&persoane);
 }
 

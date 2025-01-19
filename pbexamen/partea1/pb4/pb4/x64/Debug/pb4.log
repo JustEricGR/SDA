@@ -1,0 +1,4 @@
+﻿  Main.c
+C:\Users\ericr\Desktop\poli\anul2\sda\SDA\pbexamen\partea1\pb4\pb4\Main.c(30,3): warning C4013: 'strcpy' undefined; assuming extern returning int
+C:\Users\ericr\Desktop\poli\anul2\sda\SDA\pbexamen\partea1\pb4\pb4\Main.c(64,29): warning C4013: 'strcmp' undefined; assuming extern returning int
+  pb4.vcxproj -> C:\Users\ericr\Desktop\poli\anul2\sda\SDA\pbexamen\partea1\pb4\x64\Debug\pb4.exe

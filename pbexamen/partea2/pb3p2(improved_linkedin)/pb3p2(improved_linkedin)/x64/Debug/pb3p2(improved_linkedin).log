@@ -1,0 +1,4 @@
+﻿  Main.c
+C:\Users\ericr\Desktop\poli\anul2\sda\SDA\pbexamen\partea2\pb3p2(improved_linkedin)\pb3p2(improved_linkedin)\Main.c(52,2): warning C4013: 'strcpy' undefined; assuming extern returning int
+C:\Users\ericr\Desktop\poli\anul2\sda\SDA\pbexamen\partea2\pb3p2(improved_linkedin)\pb3p2(improved_linkedin)\Main.c(121,8): warning C4013: 'strcmp' undefined; assuming extern returning int
+  pb3p2(improved_linkedin).vcxproj -> C:\Users\ericr\Desktop\poli\anul2\sda\SDA\pbexamen\partea2\pb3p2(improved_linkedin)\x64\Debug\pb3p2(improved_linkedin).exe

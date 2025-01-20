@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ericr\\Desktop\\poli\\anul2\\sda\\SDA\\pbexamen\\partea2\\pb7(zboruri)\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A7BD389D-588E-4994-9A54-F44E7253D61E}|pb7(zboruri)\\pb7(zboruri).vcxproj|C:\\Users\\ericr\\Desktop\\poli\\anul2\\sda\\SDA\\pbexamen\\partea2\\pb7(zboruri)\\pb7(zboruri)\\Main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A7BD389D-588E-4994-9A54-F44E7253D61E}|pb7(zboruri)\\pb7(zboruri).vcxproj|solutionrelative:pb7(zboruri)\\Main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Main.c",
+              "DocumentMoniker": "C:\\Users\\ericr\\Desktop\\poli\\anul2\\sda\\SDA\\pbexamen\\partea2\\pb7(zboruri)\\pb7(zboruri)\\Main.c",
+              "RelativeDocumentMoniker": "pb7(zboruri)\\Main.c",
+              "ToolTip": "C:\\Users\\ericr\\Desktop\\poli\\anul2\\sda\\SDA\\pbexamen\\partea2\\pb7(zboruri)\\pb7(zboruri)\\Main.c",
+              "RelativeToolTip": "pb7(zboruri)\\Main.c",
+              "ViewState": "AgIAAJcAAAAAAAAAAADwv6UAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-01-20T19:30:29.15Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

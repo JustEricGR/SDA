@@ -1,0 +1,4 @@
+﻿  Main.c
+C:\Users\ericr\Desktop\poli\anul2\sda\SDA\pbexamen\partea2\pb7(zboruri)\pb7(zboruri)\Main.c(107,5): warning C4133: '=': incompatible types - from 'pasager *' to 'zbor *'
+C:\Users\ericr\Desktop\poli\anul2\sda\SDA\pbexamen\partea2\pb7(zboruri)\pb7(zboruri)\Main.c(104,12): warning C4133: 'initializing': incompatible types - from 'zbor *' to 'pasager *'
+  pb7(zboruri).vcxproj -> C:\Users\ericr\Desktop\poli\anul2\sda\SDA\pbexamen\partea2\pb7(zboruri)\x64\Debug\pb7(zboruri).exe

@@ -1,4 +1,4 @@
 ﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (pb4p1bis.vcxproj).  This can lead to incorrect clean and rebuild behavior.
   Main.c
-C:\Users\ericr\Desktop\poli\anul2\sda\SDA\pbexamen\partea1\pb4p1bis\pb4p1bis\Main.c(99,17): warning C4133: 'function': incompatible types - from 'Indici *' to 'Agenda *'
+C:\Users\ericr\Desktop\poli\anul2\sda\SDA\pbexamen\partea1\pb4p1bis\pb4p1bis\Main.c(130,17): warning C4133: 'function': incompatible types - from 'Indici *' to 'Agenda *'
   pb4p1bis.vcxproj -> C:\Users\ericr\Desktop\poli\anul2\sda\SDA\pbexamen\partea1\pb4p1bis\x64\Debug\pb2p1bis.exe

@@ -79,6 +79,37 @@ void selection_sort(Agenda* a, int n)
 	}
 }
 
+//void quicksort(Agenda a[], int prim, int ultim)
+//{
+//	while (prim <= ultim && (a[prim].varsta <= 30 || a[prim].varsta >= 40)) {
+//		prim++;
+//	}
+//	int stanga = prim + 1;
+//	int dreapta = ultim;
+//	//alegere pivot
+//	swap(&a[prim], &a[(prim + ultim) / 2]);
+//	//mutare pivot pe prima pozitie
+//	Agenda pivot = a[prim];
+//	while (stanga <= dreapta) //partitionare
+//	{
+//		while (stanga <= ultim && strcmp(a[stanga].nume, pivot.nume)<0)
+//			stanga++;
+//		while (dreapta >= prim && strcmp(pivot.nume, a[dreapta].nume)<0)
+//			dreapta--;
+//		if (stanga < dreapta)
+//			swap(&a[stanga++], &a[dreapta--]);
+//		else
+//			stanga++;
+//	}
+//	//mutare pivot la locul sau final
+//	swap(&a[dreapta], &a[prim]);
+//	//apelurile recursive
+//	if (prim < dreapta - 1)
+//		quicksort(a, prim, dreapta - 1);
+//	if (dreapta + 1 < ultim)
+//		quicksort(a, dreapta + 1, ultim);
+//}
+
 void modificare2(Agenda* v, int size) {
 	int sizeVect = 0;
 	/*Agenda* elemente = (Agenda*)malloc(size * sizeof(Agenda));
@@ -130,6 +161,7 @@ int main(void) {
 	afisare(v, size);
 
 	//modificare1(v, size);
+	//quicksort(v, 0, size-1);
 	selection_sort(v, size);
 	printf("Dupa modificare:\n");
 	afisare(v, size);

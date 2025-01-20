@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ericr\\Desktop\\poli\\anul2\\sda\\SDA\\pbexamen\\partea1\\pb4p1bis\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2203A17A-3565-490F-8301-062BD2A3E45D}|pb4p1bis\\pb4p1bis.vcxproj|C:\\Users\\ericr\\Desktop\\poli\\anul2\\sda\\SDA\\pbexamen\\partea1\\pb4p1bis\\pb4p1bis\\Main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2203A17A-3565-490F-8301-062BD2A3E45D}|pb4p1bis\\pb4p1bis.vcxproj|solutionrelative:pb4p1bis\\Main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Main.c",
+              "DocumentMoniker": "C:\\Users\\ericr\\Desktop\\poli\\anul2\\sda\\SDA\\pbexamen\\partea1\\pb4p1bis\\pb4p1bis\\Main.c",
+              "RelativeDocumentMoniker": "pb4p1bis\\Main.c",
+              "ToolTip": "C:\\Users\\ericr\\Desktop\\poli\\anul2\\sda\\SDA\\pbexamen\\partea1\\pb4p1bis\\pb4p1bis\\Main.c",
+              "RelativeToolTip": "pb4p1bis\\Main.c",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAUwHsAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-01-20T09:12:54.82Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

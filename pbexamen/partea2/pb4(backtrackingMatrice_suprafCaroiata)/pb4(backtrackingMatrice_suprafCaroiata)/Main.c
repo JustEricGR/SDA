@@ -1,113 +1,160 @@
-﻿#include <stdio.h>
-#define N 4
+﻿//#include <stdio.h>
+//#define N 4
+//
+//typedef struct coordonate {
+//    int linie, coloana;
+//} coordonate;
+//
+//coordonate pos[4]; // Posibilități de deplasare (Nord, Est, Sud, Vest)
+//coordonate a[N * N]; // Coordonatele pentru fiecare pas
+//int matrice[N][N] = { 0 }; // Matricea
+//int culori[4] = { 1, 2, 3, 4 }; // Culorile disponibile
+//
+//// Inițializează posibilitățile de deplasare (Nord, Est, Sud, Vest)
+//void initializare() {
+//    pos[0].coloana = 0; pos[0].linie = -1; // Nord
+//    pos[1].coloana = 1; pos[1].linie = 0;  // Est
+//    pos[2].coloana = 0; pos[2].linie = 1;  // Sud
+//    pos[3].coloana = -1; pos[3].linie = 0; // Vest
+//}
+//
+//// Verifică dacă toate celulele din matrice sunt marcate
+//int marker() {
+//    for (int i = 0; i < N; i++) {
+//        for (int j = 0; j < N; j++) {
+//            if (matrice[i][j] == 0) return 0; // Există cel puțin o celulă necompletată
+//        }
+//    }
+//    return 1; // Toate celulele sunt completate
+//}
+//
+//// Determină dacă s-a găsit o soluție completă
+//int solutie(int k) {
+//    return a[k].linie * a[k].coloana == N * N - 1;
+//}
+//
+//// Verifică dacă o coordonată este validă (în limitele matricei și liberă)
+//int acceptabil(coordonate c) {
+//    
+//    return 1;
+//}
+//
+//// Afișează soluția curentă
+//void afiseaza_solutia(int k) {
+//    for (int i = 0; i < N; i++) {
+//        for (int j = 0; j < N; j++) {
+//            printf("%d ", matrice[i][j]);
+//        }
+//        printf("\n");
+//    }
+//    printf("\n");
+//}
+//
+//// Algoritm de backtracking pentru a umple matricea
+//void labirint(int k) {
+//    
+//
+//    for (int j = 0; j < 4; j++) { // Parcurgem fiecare culoare
+//        matrice[a[k - 1].linie][a[k - 1].coloana] = culori[j]; // Aplicăm culoarea curentă
+//
+//        
+//        if (acceptabil(a[k])) { // Dacă este validă deplasarea
+//            if (solutie(k)) { // Dacă avem o soluție, afișăm matricea
+//                afiseaza_solutia(k);
+//                
+//            }
+//            else
+//                labirint(k + 1); // Apelăm recursiv pentru pasul următor
+//        }
+//        
+//
+//        matrice[a[k - 1].linie][a[k - 1].coloana] = 0; // Restaurăm celula după backtracking
+//    }
+//}
+//
+//int main(void) {
+//    initializare();
+//    a[0].linie = 0;
+//    a[0].coloana = 0;
+//
+//    labirint(1); 
+//    return 0;
+//}
 
-typedef struct coordonate
-{
-	int linie, coloana;
-}coordonate;
-coordonate pos[4];
-coordonate a[N * N];
-int matrice[N][N] = { 0,0,0,0,
-				   0,0,0,0,
-				   0,0,0,0,
-				   0,0,0,0 };
+#include<stdio.h>
+#define MAXR 10
+#define MAXC 10
 
 int culori[4] = { 1,2,3,4 };
 
-void initializare() //int pos[] variabila globala
-{	//initializarea posibilitatilor de deplasare Posibilitățile de deplasare sunt Nord, Est, Sud, Vest
-	pos[0].coloana = 0; // Nord
-	pos[0].linie = -1;// y scade spre Nord
-	pos[1].coloana = 1; // Est – x creste spre Est
-	pos[1].linie = 0;
-	pos[2].coloana = 0; // Sud
-	pos[2].linie = 1; // y creste spre Sud
-	pos[3].coloana = -1;// Vest – x scade spre Vest
-	pos[3].linie = 0;
+
+int map[MAXR * MAXC];
+int cols = 0;
+int rows = 0;
+
+void initMap() {
+	for (int i = 0; i < cols * rows; i++) {
+		map[i] = 0;
+	}
 }
 
-int marker() {
-	for (int i = 0; i < N; i++) {
-		for (int j = 0; j < N; j++) {
-			if (matrice[i][j] == 0)return 0;
-		}
-	}
+void afisare() {
+	for (int i = 0; i < rows; i++) {
+		for (int j = 0; j < cols; j++) {
+			printf("%d ", map[i*cols+j]);
+		}printf("\n");
+	}printf("\n");
+}
+
+int nordEst(int k) {
+	if (k / rows - 1 < 0 || k % rows - 1 < 0)return 1;
+	if (map[k] == map[k - cols - 1])return 0;
 	return 1;
 }
 
-void clear() {
-	for (int i = 0; i < N; i++) {
-		for (int j = 0; j < N; j++) {
-			matrice[i][j] = 0;
-		}
-	}
-}
-int solutie()
-{
-	return marker();
-}
-int acceptabil(coordonate c)
-{
-	if (matrice[c.linie][c.coloana] == 0 && c.linie >= 0 && c.coloana >= 0 && c.linie < N && c.coloana < N) //daca este liber si coordonata se afla in dimensiunile matricei
-		return 1;
-	else return 0;
+int nordVest(int k) {
+	if (k / rows + 1 < 0 || k % rows + 1 >= MAXC - 1)return 1;
+	if (map[k] == map[k - cols + 1])return 0;
+	return 1;
 }
 
-int verificare_diagonala(coordonate c) {
-	//stanga sus
-	for()
+int sudEst(int k) {
+	if (k / rows - 1 >= MAXR - 1 || k % rows + 1 >= MAXC - 1)return 1;
+	if (map[k] == map[k + cols - 1])return 0;
+	return 1;
 }
 
-void afiseaza_solutia(k)
-{
-	int i, j;
-	for (i = 0; i < N; i++)
-	{
-		for (j = 0; j < N; j++)
-			printf("%d ", matrice[i][j]);
-		printf("\n");
-	}
-	printf("\n");
-	for (i = 0; i < k; i++)
-		printf("pas %d = %d-%d\n", i, a[i].linie, a[i].coloana);
-	printf("\n");
+int sudVest(int k) {
+	if (k / rows + 1 >= MAXR - 1 || k % rows - 1 < 0)return 1;
+	if (map[k] == map[k + cols + 1])return 0;
+	return 1;
 }
-void labirint(int k)  //k pasul, c coordonata curenta
-{
-	int i; coordonate aux;
-	if (solutie(k)) {
-		afiseaza_solutia(k);
-		//clear();
-	}
-	else
-	{
-		for (int j = 0; j < 4; j++) {
-			matrice[a[k - 1].linie][a[k - 1].coloana] = culori[j];
-			afiseaza_solutia(k);
-			for (i = 0; i < 4; i++)  // parcurgem pe rand posibilitatile
-			{
-				aux.coloana = a[k - 1].coloana + pos[i].coloana;
-				aux.linie = a[k - 1].linie + pos[i].linie;
-				if (acceptabil(aux)) {//daca posibilitatea  e acceptabila
-					//printf("Intrare in acceptabil\n");
-					a[k] = aux;
-					//int n = matrice[a[k].linie][a[k].coloana];
-					//matrice[a[k].linie][a[k].coloana] = 2; //marcheaza ca vizitat
-					labirint(k + 1);     // back1(posibilitate_k+1)
-					matrice[a[k].linie][a[k].coloana] = 0; //sterge marcajul ca vizitat
-				}
-			}
-		}
-	}
-}   /*labirint*/
 
-int main(void)
-{
-	initializare();
-	a[0].linie = 0;
-	a[0].coloana = 0;
-	
-	//matrice[a[0].linie][a[0].coloana] = 2; //marchez ca vizitat
-	labirint(1);
+int valid(int k) {
+	if (nordEst(k) && nordEst(k) && sudEst(k) && sudVest(k))return 1;
 	return 0;
 }
+
+int solutie(int k) {
+	return k == rows * cols - 1;
+}
+
+void back(int k) {
+	for (int i = 0; i < 4; i++) {
+		map[k] = culori[i];
+		if (valid(k)) {
+			if (solutie(k)) {
+				afisare();
+			}
+			else back(k + 1);
+		}
+		map[k] = 0;
+	}
+}
+
+int main(void) {
+	rows = 4;
+	cols = 4;
+	back(0);
+}
+
